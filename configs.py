@@ -11,7 +11,7 @@ class Config(object):
     SLEEP_TIME = int(os.environ.get("SLEEP_TIME", 5))
     BOT_OWNER = os.environ.get("BOT_OWNER", 1506444772)
     CAPTION = "Rename Bot by @{}\n\nMade by @Percy_Jackson_4"
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "Cortana_Updates")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001531387788))
     MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://song:song@cluster0.6joos.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     DOWNLOAD_PATH = os.environ.get("DOWNLOAD_PATH", "./downloads")
